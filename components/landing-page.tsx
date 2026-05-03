@@ -383,6 +383,7 @@ const sellingDetailSections = [
       "Owners should prepare for valuation, buyer screening, confidentiality, negotiation, due diligence, and closing coordination.",
       "Jump International encourages sellers to ask questions early, especially around pricing, valuation, exit strategy, and financing.",
     ],
+    cta: { label: "Open Selling a Business", href: "/selling-a-business" },
   },
   {
     id: "selling-tutorial",
@@ -395,6 +396,7 @@ const sellingDetailSections = [
       "Make financial statements current, accurate, and presentable because pricing is often based on cash flow.",
       "Improve appearances, repair equipment, maintain inventory, update signage, and create an operations manual to make the business more attractive.",
     ],
+    cta: { label: "Open Selling Tutorial", href: "/selling-tutorial" },
   },
   {
     id: "seller-faq",
@@ -421,6 +423,7 @@ const sellingDetailSections = [
       "Global buyer interest can expand the pool of qualified acquisition candidates.",
       "Negotiation planning helps owners stay focused on the best outcome, not only the headline price.",
     ],
+    cta: { label: "Open Seller Articles", href: "/seller-articles" },
   },
   {
     id: "seller-registration",
@@ -461,6 +464,7 @@ const sellingDetailSections = [
       "Transaction structure should define expectations around confidentiality, screening, and advisor coordination.",
       "Legal, financing, and closing professionals remain important partners in the final transaction.",
     ],
+    cta: { label: "Open Transaction Terms", href: "/business-brokerage-transaction-terms" },
   },
 ];
 
@@ -476,6 +480,7 @@ const buyingDetailSections = [
       "Buyers should evaluate fit, cash needed, financing availability, location, operating demands, and lifestyle implications.",
       "Jump International works with independent buyers and buyer mandate clients seeking strategic acquisitions.",
     ],
+    cta: { label: "Open Buying a Business", href: "/buying-a-business" },
   },
   {
     id: "buying-tutorial",
@@ -488,6 +493,7 @@ const buyingDetailSections = [
       "The tutorial recommends getting basic facts, visiting the business, asking questions, making an offer, and then moving into due diligence.",
       "Buyers should be realistic about risk, family support, liquid assets, business fit, and the leap of faith required to own a company.",
     ],
+    cta: { label: "Open Buying Tutorial", href: "/buying-tutorial" },
   },
   {
     id: "buyer-faq",
@@ -501,6 +507,7 @@ const buyingDetailSections = [
       "Buyers should find the right business fit, not simply chase growth projections or headline price.",
       "Due diligence, realistic expectations, SBA or lender readiness, and advisor coordination are central to a sound acquisition.",
     ],
+    cta: { label: "Open Buyer FAQ", href: "/buyer-faq" },
   },
   {
     id: "buyer-articles",
@@ -513,6 +520,7 @@ const buyingDetailSections = [
       "Open-minded buyers often discover better-fit businesses than the ones they originally imagined.",
       "A structured process helps reduce emotional decision-making during negotiation and diligence.",
     ],
+    cta: { label: "Open Buyer Articles", href: "/buyer-articles" },
   },
   {
     id: "buyer-registration",
@@ -539,6 +547,7 @@ const buyingDetailSections = [
       "Offers are commonly subject to verification of financial and operational information.",
       "Buyer advisors, lenders, attorneys, and closing professionals help complete the transaction correctly.",
     ],
+    cta: { label: "Open Transaction Terms", href: "/business-brokerage-transaction-terms" },
   },
 ];
 
@@ -1210,7 +1219,9 @@ function DetailSectionGrid({
                 id={item.id}
                 key={item.id}
                 variants={fadeUp}
-                className="premium-card scroll-mt-36 overflow-hidden rounded-[2rem]"
+                className={`premium-card scroll-mt-36 overflow-hidden rounded-[2rem] transition ${
+                  item.cta ? "hover:-translate-y-1 hover:shadow-2xl" : ""
+                }`}
               >
                 {detailImage && (
                   <div
