@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { FormEvent, useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import {
@@ -226,28 +227,28 @@ const newsArticles = [
 ];
 
 const navMenus = [
-  { label: "Home", href: "#top" },
+  { label: "Home", href: "/" },
   {
     label: "About",
-    href: "#about",
+    href: "/about",
     items: [
-      { label: "About Us", href: "#about-us" },
-      { label: "Affiliations", href: "#affiliations" },
+      { label: "About Us", href: "/about" },
+      { label: "Affiliations", href: "/affiliations" },
       { label: "Careers", href: "/careers" },
-      { label: "The Knowledge Center", href: "#knowledge-center" },
+      { label: "The Knowledge Center", href: "/knowledge-center" },
     ],
   },
   {
     label: "Selling",
-    href: "#selling",
+    href: "/selling-a-business",
     items: [
-      { label: "Selling a Business", href: "#selling-a-business" },
-      { label: "Selling Tutorial", href: "#selling-tutorial" },
+      { label: "Selling a Business", href: "/selling-a-business" },
+      { label: "Selling Tutorial", href: "/selling-tutorial" },
       { label: "Seller FAQ", href: "/seller-faq" },
-      { label: "Seller Articles", href: "#seller-articles" },
+      { label: "Seller Articles", href: "/seller-articles" },
       { label: "Seller Registration", href: "/seller-registration" },
       { label: "Download Free Whitepaper", href: "/whitepaper" },
-      { label: "Brokerage Transaction Terms", href: "#seller-terms" },
+      { label: "Brokerage Transaction Terms", href: "/business-brokerage-transaction-terms" },
     ],
   },
   {
@@ -261,27 +262,27 @@ const navMenus = [
   },
   {
     label: "Buying",
-    href: "#buying",
+    href: "/buying-a-business",
     items: [
-      { label: "Buying a Business", href: "#buying-a-business" },
-      { label: "Buying Tutorial", href: "#buying-tutorial" },
-      { label: "Buyer FAQ", href: "#buyer-faq" },
-      { label: "Buyer Articles", href: "#buyer-articles" },
+      { label: "Buying a Business", href: "/buying-a-business" },
+      { label: "Buying Tutorial", href: "/buying-tutorial" },
+      { label: "Buyer FAQ", href: "/buyer-faq" },
+      { label: "Buyer Articles", href: "/buyer-articles" },
       { label: "Buyer Registration", href: "/buyer-registration" },
-      { label: "Brokerage Transaction Terms", href: "#buyer-terms" },
+      { label: "Brokerage Transaction Terms", href: "/business-brokerage-transaction-terms" },
     ],
   },
   { label: "Blog", href: "/blog" },
   {
     label: "Listings",
-    href: "#listings",
+    href: "/businesses-for-sale",
     items: [
-      { label: "Businesses for Sale", href: "#businesses-for-sale" },
-      { label: "All business for Sale in Florida", href: "#florida-businesses" },
-      { label: "Recent Transactions", href: "#recent-transactions" },
+      { label: "Businesses for Sale", href: "/businesses-for-sale" },
+      { label: "All business for Sale in Florida", href: "/florida-businesses" },
+      { label: "Recent Transactions", href: "/recent-transactions" },
     ],
   },
-  { label: "Contact", href: "#contact" },
+  { label: "Contact", href: "/contact" },
 ];
 
 const socialLinks = {
@@ -327,6 +328,7 @@ const aboutDetailSections = [
       "The firm uses its own forms to help reduce unnecessary legal expense during the process.",
       "Consulting services can prepare a business before listing by reviewing operations and recommending profitability improvements.",
     ],
+    cta: { label: "Open About Page", href: "/about" },
   },
   {
     id: "affiliations",
@@ -339,6 +341,7 @@ const aboutDetailSections = [
       "The IBBA provides education, conferences, professional designations, and networking opportunities.",
       "Jeff Jump is a Certified Business Intermediary with the International Business Brokers Association.",
     ],
+    cta: { label: "Open Affiliations", href: "/affiliations" },
   },
   {
     id: "careers",
@@ -364,6 +367,7 @@ const aboutDetailSections = [
       "Buyer and seller articles explain negotiation, business ownership, and transaction readiness.",
       "Tutorial content helps visitors understand what to prepare before beginning a sale or acquisition process.",
     ],
+    cta: { label: "Open Knowledge Center", href: "/knowledge-center" },
   },
 ];
 
@@ -825,7 +829,10 @@ function ChatLogo({
 }) {
   const [hasImageError, setHasImageError] = useState(false);
   const dimensions = size === "large" ? 52 : 84;
-  const sizeClass = size === "large" ? "h-[52px] w-[52px]" : "h-[84px] w-[84px]";
+  const sizeClass =
+    size === "large"
+      ? "h-11 w-11 sm:h-[52px] sm:w-[52px]"
+      : "h-16 w-16 sm:h-[84px] sm:w-[84px]";
 
   if (hasImageError) {
     return (
@@ -1005,14 +1012,14 @@ function ChatbotWidget() {
           setIsOpen(true);
           setHasUnread(false);
         }}
-        className="fixed bottom-24 right-4 z-50 flex h-24 w-24 items-center justify-center rounded-full bg-transparent text-white drop-shadow-2xl transition hover:-translate-y-1 md:bottom-6 md:right-6"
+        className="fixed bottom-24 right-4 z-50 flex h-18 w-18 items-center justify-center rounded-full bg-transparent text-white drop-shadow-2xl transition hover:-translate-y-1 sm:h-24 sm:w-24 md:bottom-6 md:right-6"
         aria-label="Open Jump Assistant chat"
         whileHover={{ scale: 1.04 }}
         whileTap={{ scale: 0.98 }}
       >
         <ChatLogo size="small" />
         {hasUnread && (
-          <span className="absolute right-1 top-1 flex h-7 w-7 items-center justify-center rounded-full bg-emerald-500 text-xs font-bold text-white ring-4 ring-white">
+          <span className="absolute right-0 top-0 flex h-6 w-6 items-center justify-center rounded-full bg-emerald-500 text-xs font-bold text-white ring-4 ring-white sm:right-1 sm:top-1 sm:h-7 sm:w-7">
             1
           </span>
         )}
@@ -1409,7 +1416,7 @@ export function LandingPage() {
 
         {mobileOpen && (
           <motion.div
-            className="glass-panel mx-auto mt-3 max-w-7xl rounded-3xl p-4 lg:hidden"
+            className="glass-panel mx-auto mt-3 max-h-[calc(100dvh-12rem)] max-w-7xl overflow-y-auto overscroll-contain rounded-3xl p-4 pb-24 [-webkit-overflow-scrolling:touch] lg:hidden"
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
           >
@@ -2649,12 +2656,12 @@ export function LandingPage() {
             </div>
             <p className="mt-4">© 2022 Jump International Business Brokers</p>
             <div className="mt-3 flex flex-wrap gap-x-4 gap-y-2">
-              <a href="/terms-and-conditions" className="transition hover:text-emerald-700">
+              <Link href="/terms-and-conditions" className="transition hover:text-emerald-700">
                 Terms and Conditions
-              </a>
-              <a href="/privacy-cookies-policy" className="transition hover:text-emerald-700">
+              </Link>
+              <Link href="/privacy-cookies-policy" className="transition hover:text-emerald-700">
                 Privacy & Cookies Policy
-              </a>
+              </Link>
             </div>
             <p className="mt-2">
               Website by{" "}

@@ -66,13 +66,13 @@ export default function WhitepaperPage() {
             </div>
           </div>
 
-          <div className="mx-auto w-full max-w-lg">
+          <div className="mx-auto w-full max-w-md">
             <Image
-              src="/images/whitepaper-cover.png"
+              src="/images/whitepaper-cover-transparent.png"
               alt="Selling a Main-Street Business, The Critical Factors whitepaper cover"
               width={625}
               height={723}
-              className="h-auto w-full drop-shadow-2xl"
+              className="h-auto w-full drop-shadow-[0_30px_45px_rgba(0,0,0,0.45)]"
               priority
             />
           </div>

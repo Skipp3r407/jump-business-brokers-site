@@ -275,6 +275,411 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "why-business-sales-break-down",
+    title: "Why Business Sales Break Down",
+    officialTitle: "Why Business Sales Break Down",
+    date: "April 4, 2026",
+    category: "Seller Articles",
+    summary:
+      "Many failed business sales can be traced to issues that could have been anticipated, documented, or managed before the deal reached a critical point.",
+    image:
+      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1800&q=85",
+    sourceUrl: "https://jumpinternationalbusinessbrokers.com/why-business-sales-break-down/",
+    sections: [
+      {
+        paragraphs: [
+          "When a business sale fails to close, the result can be frustrating for everyone involved. While some deals collapse because of unavoidable obstacles, many unravel because of issues that could have been anticipated earlier.",
+          "The strongest transactions are built on realistic expectations, organized documentation, qualified buyers, clear communication, and a process that keeps both sides moving toward closing.",
+        ],
+      },
+      {
+        heading: "Common Deal Breakers",
+        paragraphs: [
+          "Breakdowns often happen when financial records are incomplete, asking prices are not supported by performance, financing is delayed, or buyer and seller expectations drift apart.",
+          "A professional broker helps surface these issues early and keeps the process focused on terms that can actually close.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "common-misunderstandings-that-can-undermine-an-ma-deal",
+    title: "Common Misunderstandings That Can Undermine an M&A Deal",
+    officialTitle: "Common Misunderstandings That Can Undermine an M&A Deal",
+    date: "March 8, 2026",
+    category: "Seller Articles",
+    summary:
+      "M&A transactions can lose value when owners enter the process with assumptions about price, buyers, timing, confidentiality, or deal structure.",
+    image:
+      "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1800&q=85",
+    sourceUrl:
+      "https://jumpinternationalbusinessbrokers.com/common-misunderstandings-that-can-undermine-an-ma-deal/",
+    sections: [
+      {
+        paragraphs: [
+          "Mergers and acquisitions are complex, high-stakes transactions. Many business owners enter the process with assumptions that can quietly derail negotiations or reduce company value.",
+          "A disciplined process helps owners separate market reality from personal expectations and gives buyers the confidence needed to proceed.",
+        ],
+      },
+      {
+        heading: "Protecting the Deal",
+        bullets: [
+          "Understand how buyers evaluate value.",
+          "Keep confidentiality controls tight.",
+          "Prepare records before diligence begins.",
+          "Avoid assuming every interested party is qualified.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "who-really-shows-up-when-you-sell-a-business",
+    title: "Who Really Shows Up When You Sell a Business?",
+    officialTitle: "Who Really Shows Up When You Sell a Business?",
+    date: "February 15, 2026",
+    category: "Seller Articles",
+    summary:
+      "Every buyer has a different motivation, and understanding those motivations helps sellers negotiate with more confidence.",
+    image:
+      "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1800&q=85",
+    sourceUrl: "https://jumpinternationalbusinessbrokers.com/who-really-shows-up-when-you-sell-a-business/",
+    sections: [
+      {
+        paragraphs: [
+          "Every buyer enters the process with a different lens. Some are chasing growth, others are looking for security, and others care primarily about the numbers.",
+          "Understanding these motivations ahead of time gives sellers a stronger negotiating position and helps them prepare responses to different types of buyer concerns.",
+        ],
+      },
+      {
+        heading: "Buyer Motivation Matters",
+        paragraphs: [
+          "A strategic buyer may value market share or synergies. An individual buyer may focus on income, training, and lifestyle. An investor may focus on systems, management depth, and cash flow stability.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "the-lease-factor-why-real-estate-can-make-or-break-a-business-sale",
+    title: "The Lease Factor: Why Real Estate Can Make or Break a Business Sale",
+    officialTitle: "The Lease Factor: Why Real Estate Can Make or Break a Business Sale",
+    date: "February 8, 2026",
+    category: "Buyer Articles, Seller Articles",
+    summary:
+      "Lease terms, landlord approval, assignment rights, and location stability can become some of the most important parts of a business sale.",
+    image:
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=85",
+    sourceUrl:
+      "https://jumpinternationalbusinessbrokers.com/the-lease-factor-why-real-estate-can-make-or-break-a-business-sale/",
+    sections: [
+      {
+        paragraphs: [
+          "Buying or selling a business is not just about revenue, customers, or brand value. When a lease is involved, the real estate side of the deal can quickly become one of the most important pieces of the transaction.",
+          "Buyers want stability, sellers want transferability, and landlords often have approval rights that must be addressed before closing.",
+        ],
+      },
+      {
+        heading: "What to Review",
+        bullets: [
+          "Lease term and renewal options",
+          "Assignment and landlord consent language",
+          "Rent increases and occupancy costs",
+          "Restrictions that affect operations",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "avoiding-the-deal-breakers-in-business-transactions",
+    title: "Avoiding the Deal Breakers in Business Transactions",
+    officialTitle: "Avoiding the Deal Breakers in Business Transactions",
+    date: "February 1, 2026",
+    category: "Seller Articles",
+    summary:
+      "Business transactions often fail because expectations, financing, records, leases, or personal deal terms are not addressed early enough.",
+    image:
+      "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1800&q=85",
+    sourceUrl:
+      "https://jumpinternationalbusinessbrokers.com/avoiding-the-deal-breakers-in-business-transactions/",
+    sections: [
+      {
+        paragraphs: [
+          "When business sales do not go through, the reasons can be major, minor, financial, operational, or personal. Deals often break because buyers and sellers are not aligned on expectations.",
+          "A broker-led process helps identify issues before they become closing problems.",
+        ],
+      },
+      {
+        heading: "Reduce Risk Before It Starts",
+        paragraphs: [
+          "Clear documentation, realistic pricing, buyer qualification, communication discipline, and early review of lease or financing issues can protect momentum.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "leverage-linkedin-to-grow-your-business",
+    title: "Leverage LinkedIn to Grow Your Business",
+    officialTitle: "Leverage LinkedIn to Grow Your Business",
+    date: "January 25, 2026",
+    category: "Seller Articles",
+    summary:
+      "A polished LinkedIn presence can strengthen professional credibility, expand reach, and support long-term business growth.",
+    image:
+      "https://images.unsplash.com/photo-1611944212129-29977ae1398c?auto=format&fit=crop&w=1800&q=85",
+    sourceUrl: "https://jumpinternationalbusinessbrokers.com/leverage-linkedin-to-grow-your-business/",
+    sections: [
+      {
+        paragraphs: [
+          "Your LinkedIn profile is your digital storefront. It tells your professional story before you ever say a word.",
+          "Business owners who present themselves with clarity and professionalism can earn trust faster and build stronger relationships with customers, referral partners, and potential acquirers.",
+        ],
+      },
+      {
+        heading: "Practical Improvements",
+        bullets: [
+          "Use a clear professional headline.",
+          "Explain your expertise and company value.",
+          "Publish useful insights consistently.",
+          "Build relationships before you need them.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "the-art-of-the-first-impression",
+    title: "The Art of the First Impression",
+    officialTitle: "The Art of the First Impression",
+    date: "January 18, 2026",
+    category: "Seller Articles",
+    summary:
+      "First impressions influence how buyers, customers, employees, and partners evaluate a business before deeper diligence begins.",
+    image:
+      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1800&q=85",
+    sourceUrl: "https://jumpinternationalbusinessbrokers.com/the-art-of-the-first-impression/",
+    sections: [
+      {
+        paragraphs: [
+          "First impressions matter in personal interactions and business transactions. Buyers begin forming opinions before they review every detail.",
+          "A clean facility, organized records, professional communication, and a clear story can improve buyer confidence.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "how-to-ensure-a-smooth-business-sale-and-transition-into-retirement",
+    title: "How to Ensure a Smooth Business Sale and Transition into Retirement",
+    officialTitle: "How to Ensure a Smooth Business Sale and Transition into Retirement",
+    date: "January 11, 2026",
+    category: "Seller Articles",
+    summary:
+      "Retirement transitions work best when owners plan early, prepare the business, and protect continuity for buyers and employees.",
+    image:
+      "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1800&q=85",
+    sourceUrl:
+      "https://jumpinternationalbusinessbrokers.com/how-to-ensure-a-smooth-business-sale-and-transition-into-retirement/",
+    sections: [
+      {
+        paragraphs: [
+          "For many business owners, retirement feels far away until it suddenly becomes a near-term decision. Planning for that transition is crucial.",
+          "A smooth sale depends on preparing records, reducing owner dependency, training staff, and giving buyers confidence that the company can continue after closing.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "the-critical-role-of-employee-engagement-in-business-success",
+    title: "The Critical Role of Employee Engagement in Business Success",
+    officialTitle: "The Critical Role of Employee Engagement in Business Success",
+    date: "January 4, 2026",
+    category: "Buyer Articles, Seller Articles",
+    summary:
+      "Employee engagement affects operations, customer experience, retention, and buyer confidence in the long-term health of a business.",
+    image:
+      "https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1800&q=85",
+    sourceUrl:
+      "https://jumpinternationalbusinessbrokers.com/the-critical-role-of-employee-engagement-in-business-success/",
+    sections: [
+      {
+        paragraphs: [
+          "Employees are the lifeblood of a business. Their engagement influences customer experience, productivity, continuity, and the company's ability to thrive after a transaction.",
+          "For sellers, engaged employees can strengthen buyer confidence. For buyers, employee stability can reduce transition risk.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "thinking-about-buying-a-business-start-with-these-essential-steps",
+    title: "Thinking About Buying a Business? Start With These Essential Steps",
+    officialTitle: "Thinking About Buying a Business? Start With These Essential Steps",
+    date: "March 22, 2026",
+    category: "Buyer Articles",
+    summary:
+      "First-time buyers should begin with clear goals, financial readiness, market research, and professional guidance before pursuing a business.",
+    image:
+      "https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&w=1800&q=85",
+    sourceUrl:
+      "https://jumpinternationalbusinessbrokers.com/thinking-about-buying-a-business-start-with-these-essential-steps/",
+    sections: [
+      {
+        paragraphs: [
+          "Purchasing a business for the first time can be exciting and intimidating. Many people are drawn to business ownership because they want independence and financial opportunity.",
+          "The process requires careful planning, research, and an honest look at available capital, experience, lifestyle goals, and risk tolerance.",
+        ],
+      },
+      {
+        heading: "Start With the Basics",
+        bullets: [
+          "Clarify why you want to own a business.",
+          "Understand your financial capacity.",
+          "Research industries and locations.",
+          "Work with experienced advisors.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "you-might-be-more-ready-for-business-ownership-than-you-think",
+    title: "You Might Be More Ready for Business Ownership Than You Think",
+    officialTitle: "You Might Be More Ready for Business Ownership Than You Think",
+    date: "March 1, 2026",
+    category: "Buyer Articles",
+    summary:
+      "Many buyers already have transferable skills, decision-making experience, and resilience that can support business ownership.",
+    image:
+      "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1800&q=85",
+    sourceUrl:
+      "https://jumpinternationalbusinessbrokers.com/you-might-be-more-ready-for-business-ownership-than-you-think/",
+    sections: [
+      {
+        paragraphs: [
+          "Many people wonder whether they are truly cut out to own a business. Entrepreneurship is not for everyone, but most owners are not born overnight.",
+          "Skills built through management, sales, operations, finance, customer service, or leadership can transfer directly into business ownership.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "why-business-buyers-often-choose-proven-companies",
+    title: "Why Business Buyers Often Choose Proven Companies",
+    officialTitle: "Why Business Buyers Often Choose Proven Companies",
+    date: "February 24, 2026",
+    category: "Buyer Articles",
+    summary:
+      "Buying an existing business can offer customers, revenue, systems, staff, and historical records that startups cannot provide.",
+    image:
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1800&q=85",
+    sourceUrl:
+      "https://jumpinternationalbusinessbrokers.com/why-business-buyers-often-choose-proven-companies/",
+    sections: [
+      {
+        paragraphs: [
+          "Purchasing an existing business offers a level of predictability that launching a startup often cannot provide.",
+          "A proven company may already have customers, revenue, employees, systems, vendor relationships, and a demonstrated market need.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "your-roadmap-to-a-smooth-business-acquisition",
+    title: "Your Roadmap to a Smooth Business Acquisition",
+    officialTitle: "Your Roadmap to a Smooth Business Acquisition",
+    date: "February 17, 2026",
+    category: "Buyer Articles",
+    summary:
+      "A smooth acquisition depends on preparation, confidentiality, financing, offer structure, due diligence, and transition planning.",
+    image:
+      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1800&q=85",
+    sourceUrl: "https://jumpinternationalbusinessbrokers.com/your-roadmap-to-a-smooth-business-acquisition/",
+    sections: [
+      {
+        paragraphs: [
+          "Understanding the buying process and potential challenges upfront can increase the chances of success.",
+          "Buyers should prepare financially, define acquisition criteria, sign confidentiality documents, evaluate information carefully, and use experienced advisors through offer, diligence, and transition.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "unlocking-sba-loans-for-small-business-buyers",
+    title: "Unlocking SBA Loans for Small Business Buyers",
+    officialTitle: "Unlocking SBA Loans for Small Business Buyers",
+    date: "February 10, 2026",
+    category: "Buyer Articles",
+    summary:
+      "SBA lending can help qualified buyers finance a business acquisition, but buyers need organized records and lender readiness.",
+    image:
+      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1800&q=85",
+    sourceUrl: "https://jumpinternationalbusinessbrokers.com/unlocking-sba-loans-for-small-business-buyers/",
+    sections: [
+      {
+        paragraphs: [
+          "Securing funding to start or grow a small business can be daunting, especially for first-time entrepreneurs.",
+          "The Small Business Administration supports lending programs that can help qualified buyers finance acquisitions, but buyers still need to be organized, bank-ready, and realistic about timing.",
+        ],
+      },
+      {
+        heading: "Be Bank Ready",
+        bullets: [
+          "Organize personal financial information.",
+          "Understand down payment requirements.",
+          "Prepare for documentation requests.",
+          "Work with lenders familiar with business acquisitions.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "7-essential-questions-to-ask-before-buying-a-business",
+    title: "7 Essential Questions to Ask Before Buying a Business",
+    officialTitle: "7 Essential Questions to Ask Before Buying a Business",
+    date: "February 3, 2026",
+    category: "Buyer Articles",
+    summary:
+      "Buyers reduce risk by asking clear questions about financials, customers, operations, employees, growth, legal issues, and transition support.",
+    image:
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1800&q=85",
+    sourceUrl:
+      "https://jumpinternationalbusinessbrokers.com/7-essential-questions-to-ask-before-buying-a-business/",
+    sections: [
+      {
+        paragraphs: [
+          "Buying a business is a significant investment that requires careful consideration. To make an informed decision and reduce risk, buyers need to ask the right questions before finalizing any deal.",
+        ],
+      },
+      {
+        heading: "Questions to Ask",
+        bullets: [
+          "Why is the owner selling?",
+          "How reliable are the financial records?",
+          "What customer or vendor concentration exists?",
+          "What employees are critical to operations?",
+          "What legal, lease, or debt issues exist?",
+          "What growth opportunities are realistic?",
+          "Will the seller provide training and transition support?",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "the-power-of-employee-engagement-why-it-matters-for-your-business",
+    title: "The Power of Employee Engagement: Why It Matters for Your Business",
+    officialTitle: "The Power of Employee Engagement: Why It Matters for Your Business",
+    date: "January 27, 2026",
+    category: "Buyer Articles",
+    summary:
+      "Employee satisfaction and retention can influence business performance, buyer confidence, and post-acquisition continuity.",
+    image:
+      "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1800&q=85",
+    sourceUrl:
+      "https://jumpinternationalbusinessbrokers.com/the-power-of-employee-engagement-why-it-matters-for-your-business/",
+    sections: [
+      {
+        paragraphs: [
+          "Employees are more than just part of a team. They are a driving force behind a business's success.",
+          "For buyers, employee engagement can reveal how stable the business may be after closing. For sellers, a committed team can improve value and reduce transition concerns.",
+        ],
+      },
+    ],
+  },
 ];
 
 export function getBlogPost(slug: string) {
