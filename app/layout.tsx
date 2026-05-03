@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
+import { FloatingActions } from "@/components/landing-page";
 import { SiteLoader } from "@/components/site-loader";
 import "./globals.css";
 
@@ -42,6 +43,7 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
       <body>
         <SiteLoader>{children}</SiteLoader>
+        <FloatingActions />
       </body>
     </html>
   );

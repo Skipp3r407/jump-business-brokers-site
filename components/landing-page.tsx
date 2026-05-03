@@ -1148,6 +1148,22 @@ function ChatbotWidget() {
   );
 }
 
+export function FloatingActions() {
+  return (
+    <>
+      <button
+        type="button"
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        aria-label="Back to top"
+        className="fixed bottom-[12.5rem] right-8 z-50 hidden h-12 w-12 items-center justify-center rounded-full bg-white text-emerald-700 shadow-2xl shadow-neutral-950/15 ring-1 ring-emerald-100 transition hover:-translate-y-1 hover:bg-emerald-600 hover:text-white md:flex"
+      >
+        <ArrowUp className="h-5 w-5" />
+      </button>
+      <ChatbotWidget />
+    </>
+  );
+}
+
 function SectionIntro({
   eyebrow,
   title,
@@ -1323,14 +1339,6 @@ export function LandingPage() {
         <CalendarDays className="h-4 w-4" />
         Book Consultation
       </a>
-      <a
-        href="#top"
-        aria-label="Back to top"
-        className="fixed bottom-[12.5rem] right-8 z-50 hidden h-12 w-12 items-center justify-center rounded-full bg-white text-emerald-700 shadow-2xl shadow-neutral-950/15 ring-1 ring-emerald-100 transition hover:-translate-y-1 hover:bg-emerald-600 hover:text-white md:flex"
-      >
-        <ArrowUp className="h-5 w-5" />
-      </a>
-      <ChatbotWidget />
 
       <header className="fixed left-0 right-0 top-0 z-50">
         <div className="hidden w-full items-center justify-center gap-5 bg-neutral-950 px-8 py-2 text-xs font-semibold text-white/85 md:flex">
