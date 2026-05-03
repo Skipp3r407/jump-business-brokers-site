@@ -4,15 +4,29 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const LOADER_DURATION_MS = 3000;
+const LOADER_SESSION_KEY = "jump-site-loader-seen";
 
 export function SiteLoader({ children }: { children: React.ReactNode }) {
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(() => {
+    if (typeof window === "undefined") {
+      return false;
+    }
+
+    return !window.sessionStorage.getItem(LOADER_SESSION_KEY);
+  });
 
   useEffect(() => {
-    const timer = window.setTimeout(() => setIsVisible(false), LOADER_DURATION_MS);
+    if (!isVisible) {
+      return;
+    }
+
+    const timer = window.setTimeout(() => {
+      window.sessionStorage.setItem(LOADER_SESSION_KEY, "true");
+      setIsVisible(false);
+    }, LOADER_DURATION_MS);
 
     return () => window.clearTimeout(timer);
-  }, []);
+  }, [isVisible]);
 
   return (
     <>
